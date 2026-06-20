@@ -2,12 +2,12 @@ import { motion } from "motion/react";
 import { ExternalLink, Github, BrainCircuit, Layers } from "lucide-react";
 import { RESUME_DATA } from "../data";
 import ProjectCard from "./ProjectCard";
-import hungerHotspot from "./assets/images/hunger_hotspot_dashboard_1781857814530.jpg";
-import skinSense from "./assets/images/skinsense_interface_1781857829499.jpg";
-import mediCheck from "./assets/images/medicheck_ai_terminal_1781857847058.jpg";
-import ecommerce from "./assets/images/ecommerce_preview_1781863211413.jpg";
-import creditScore from "./assets/images/credit_score_prev_1781863227208.jpg";
-import ezLeave from "./assets/images/ezleave_preview_1781863242411.jpg";
+import hungerHotspot from "../assets/images/hunger_hotspot_dashboard_1781857814530.jpg";
+import skinSense from "../assets/images/skinsense_interface_1781857829499.jpg";
+import mediCheck from "../assets/images/medicheck_ai_terminal_1781857847058.jpg";
+import ecommerce from "../assets/images/ecommerce_preview_1781863211413.jpg";
+import creditScore from "../assets/images/credit_score_prev_1781863227208.jpg";
+import ezLeave from "../assets/images/ezleave_preview_1781863242411.jpg";
 
 const PROJECT_METAS = [
   {
