@@ -2,11 +2,17 @@ import { motion } from "motion/react";
 import { ExternalLink, Github, BrainCircuit, Layers } from "lucide-react";
 import { RESUME_DATA } from "../data";
 import ProjectCard from "./ProjectCard";
+import hungerHotspot from "./assets/images/hunger_hotspot_dashboard_1781857814530.jpg";
+import skinSense from "./assets/images/skinsense_interface_1781857829499.jpg";
+import mediCheck from "./assets/images/medicheck_ai_terminal_1781857847058.jpg";
+import ecommerce from "./assets/images/ecommerce_preview_1781863211413.jpg";
+import creditScore from "./assets/images/credit_score_prev_1781863227208.jpg";
+import ezLeave from "./assets/images/ezleave_preview_1781863242411.jpg";
 
 const PROJECT_METAS = [
   {
     id: "proj1",
-    image: "/src/assets/images/hunger_hotspot_dashboard_1781857814530.jpg",
+    image: hungerHotspot,
     category: "AI & ML",
     color: "from-[#BC13FE]/20 to-[#00F0FF]/20 text-[var(--neon-cyan)]",
     badge: "ML Detection System",
@@ -14,7 +20,7 @@ const PROJECT_METAS = [
   },
   {
     id: "proj2",
-    image: "/src/assets/images/skinsense_interface_1781857829499.jpg",
+    image: skinSense,
     category: "Systems & Fullstack",
     color: "from-[var(--neon-blue)]/20 to-[var(--neon-cyan)]/20 text-[var(--neon-blue)]",
     badge: "Smart Skin Engine",
@@ -22,7 +28,7 @@ const PROJECT_METAS = [
   },
   {
     id: "proj3",
-    image: "/src/assets/images/medicheck_ai_terminal_1781857847058.jpg",
+    image: mediCheck,
     category: "AI & ML",
     color: "from-[var(--neon-cyan)]/20 to-[#BC13FE]/20 text-[var(--neon-purple)]",
     badge: "Interactive Drug NLP",
@@ -30,7 +36,7 @@ const PROJECT_METAS = [
   },
   {
     id: "proj4",
-    image: "/src/assets/images/ecommerce_preview_1781863211413.jpg",
+    image: ecommerce,
     category: "Full-Stack & Cloud",
     color: "from-[#00F0FF]/25 to-[#BC13FE]/15 text-[var(--neon-cyan)]",
     badge: "MERN E-commerce",
@@ -38,7 +44,7 @@ const PROJECT_METAS = [
   },
   {
     id: "proj5",
-    image: "/src/assets/images/credit_score_prev_1781863227208.jpg",
+    image: creditScore,
     category: "Fintech & ML",
     color: "from-[var(--neon-blue)]/20 to-emerald-500/10 text-emerald-400",
     badge: "Inclusive Scoring Engine",
@@ -46,7 +52,7 @@ const PROJECT_METAS = [
   },
   {
     id: "proj6",
-    image: "/src/assets/images/ezleave_preview_1781863242411.jpg",
+    image: ezLeave,
     category: "Enterprise Security",
     color: "from-[var(--neon-purple)]/20 to-[#00F0FF]/15 text-[var(--neon-purple)]",
     badge: "HR Workflow Automator",
