@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from "react";
 import { motion, useMotionValue, useSpring, useScroll, useTransform } from "motion/react";
 import { ArrowDownRight, Terminal, Server, BrainCircuit, Globe } from "lucide-react";
 import { RESUME_DATA } from "../data";
+import profileImage from "../assets/images/dipti_original_photo_1781868524954.jpg";
 
 interface HeroProps {
   onNavigate: (sectionId: string) => void;
@@ -195,11 +196,10 @@ export default function Hero({ onNavigate }: HeroProps) {
             <div className="w-full h-full rounded-2xl overflow-hidden glassmorphism-card border border-[var(--neon-purple)]/30 p-2.5 relative group">
               <div className="w-full h-full rounded-xl overflow-hidden relative">
                 <img
-                  src="/src/assets/images/dipti_original_photo_1781868524954.jpg"
-                  alt="Dipti Patil Portrait"
-                  referrerPolicy="no-referrer"
-                  className="w-full h-full object-cover grayscale brightness-90 group-hover:grayscale-0 group-hover:scale-115 transition-all duration-700"
-                />
+  src={profileImage}
+  alt="Dipti Patil Portrait"
+  className="w-full h-full object-cover grayscale brightness-90 group-hover:grayscale-0 group-hover:scale-115 transition-all duration-700"
+/>
                 
                 {/* Overlay diagnostic scan line */}
                 <div className="absolute inset-0 bg-linear-to-b from-transparent via-[var(--neon-purple)]/10 to-transparent pointer-events-none animate-[bounce_8s_infinite] saturate-200" />
